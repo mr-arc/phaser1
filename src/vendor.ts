@@ -1,12 +1,4 @@
-// // Angular
-// import '@angular/platform-browser';
-// import '@angular/platform-browser-dynamic';
-// import '@angular/core';
-// import '@angular/common';
-// import '@angular/http';
-// import '@angular/router';
-// // RxJS
-// import 'rxjs';
-// // Bootstrap CSS
-// import 'bootstrap-css/lib/modal.css';
-// import 'bootstrap-css/lib/utilities.css';
+// Define Phaser as a global so we never need to import it.
+import * as _Phaser from "phaser-ce";
+
+declare const Phaser: _Phaser;

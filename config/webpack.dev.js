@@ -20,5 +20,9 @@ module.exports = webpackMerge(commonConfig, {
   devServer: {
     historyApiFallback: true,
     stats: 'minimal'
+  },
+
+  externals: {
+    phaser: "Phaser"
   }
 });

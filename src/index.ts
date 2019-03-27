@@ -1,3 +1,6 @@
-window.onload = () => {
-  let game = new Phaser.Game(800, 600, Phaser.AUTO, "content", {});
-};
+import {Game} from './game';
+
+// Bootstrap the game.
+window.addEventListener('load', () => {
+  Game.run();
+});
